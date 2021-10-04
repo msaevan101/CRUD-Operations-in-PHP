@@ -6,6 +6,4 @@
     $dbname = "db_crud";
 
     $mysqli = new mysqli($hostName, $username, $password, $dbname);
-
-
 ?>
