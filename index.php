@@ -64,6 +64,16 @@
                       <textarea name="description" class="form-control" data-error="Please enter description." required></textarea>
                       <div class="help-block with-errors"></div>
                   </div>
+                   <div class="form-group">
+                    <label class="control-label" for="name">Name:</label>
+                    <input type="text" name="name" class="form-control" data-error="Please enter name." required />
+                    <div class="help-block with-errors"></div>
+                  </div>
+                  <div class="form-group">
+                    <label class="control-label" for="email">Description:</label>
+                    <input name="email" class="form-control" data-error="Please enter email." required></input>
+                    <div class="help-block with-errors"></div>
+                  </div>
                   <div class="form-group">
                       <button type="submit" class="btn crud-submit btn-success">Submit</button>
                   </div>
